@@ -1,0 +1,5 @@
+services:
+  - name: your-app-name
+    type: web
+    buildCommand: npm install && npm run build
+    startCommand: npm start
